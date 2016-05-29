@@ -9,12 +9,15 @@ System.register("test", [], function(exports_1, context_1) {
         }
     }
 });
-System.register("main", ["test"], function(exports_2, context_2) {
+System.register("main", ['rxjs-es/Rx', "test"], function(exports_2, context_2) {
     "use strict";
     var __moduleName = context_2 && context_2.id;
-    var test_1;
+    var Rx, test_1;
     return {
         setters:[
+            function (Rx_1) {
+                Rx = Rx_1;
+            },
             function (test_1_1) {
                 test_1 = test_1_1;
             }],
