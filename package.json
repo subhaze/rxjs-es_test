@@ -1,0 +1,17 @@
+{
+  "name": "rx_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --allowJs -m system --moduleResolution node main.js --outFile main-dist.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs-es": "^5.0.0-beta.8",
+    "typescript": "^1.8.10"
+  }
+}
